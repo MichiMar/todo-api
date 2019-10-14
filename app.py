@@ -5,7 +5,7 @@ from flask_marshmallow import Marshmallow
 from flask_heroku import Heroku
 
 app = Flask(__name__)
-heroku = Herooku(app)
+heroku = Heroku(app)
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///todo.db"
 
