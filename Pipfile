@@ -11,7 +11,7 @@ flask-sqlalchemy = "*"
 flask-cors = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
-heroku = "*"
+flask-heroku = "*"
 gunicorn = "*"
 
 [requires]
